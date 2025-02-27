@@ -1,13 +1,10 @@
-from typing import Optional
-
-def combination_sum(nums: list[int], target: int, max_length: Optional[int]= None):
+def combination_sum(nums: list[int], target: int):
     """
     Find all unique combinations in the input list that sum up to the target.
 
     Args:
         nums (list of int): The list of integers to find combinations from.
         target (int): The target sum for the combinations.
-        max_length (int, optional): If specified, only combinations up to this length will be considered.
 
     Returns:
         list of list of int: A list of lists, where each inner list is a unique combination of numbers that sum up to the target.
